@@ -1,0 +1,146 @@
+TẬP HỢP CÂU MẪU NGÔN TỪ THÙ ĐỊCH
+"Đội bóng X chỉ thắng nhờ trọng tài; fan của họ chắc chẳng hiểu bóng đá.",non_hate
+"Món ăn này bị thổi phồng quá mức; ai thích chắc chưa từng ăn món ngon.",non_hate
+"Phim đang hot nhất năm nay thật tệ; người khen nó chỉ chạy theo xu hướng.",non_hate
+"Game này chỉ hay với người chưa chơi game nào tốt hơn.",non_hate
+"Điện thoại này là lựa chọn tệ nhất; mua nó chỉ phí tiền.",non_hate
+"Bài hát này nghe như tiếng ồn, không hiểu sao lại lên top.",non_hate
+"Quán cà phê này chỉ đẹp trên ảnh, đồ uống chẳng có gì đặc sắc.",non_hate
+"Thương hiệu này bán đồ đắt tiền nhưng chất lượng chẳng hơn hàng phổ thông.",non_hate
+"Nếu bạn thích kết phim này thì bạn đã bỏ lỡ toàn bộ ý nghĩa câu chuyện.",non_hate
+"Không có môn thể thao nào nhàm chán hơn môn này.",non_hate
+"Sản phẩm này chứng minh rằng giá cao không đồng nghĩa chất lượng cao.",non_hate
+"Hai đội đều chơi tệ, nhưng fan mới là người không chấp nhận sự thật.",non_hate
+"Món đặc sản này không xứng đáng với danh tiếng của nó.",non_hate
+"Ai thích nhân vật này chắc chỉ xem phim bằng một nửa sự chú ý.",non_hate
+"Nếu bài viết này làm bạn bực mình thì có lẽ bạn đang giúp nó lan truyền.",non_hate
+"Tất cả người thuộc [NHÓM] đều nguy hiểm; đừng tin bất kỳ ai trong số họ.",hate
+"[NHÓM] là nguyên nhân của mọi vấn đề trong khu vực này.",hate
+"Đừng cho người thuộc [NHÓM] thuê nhà chỉ vì họ không thuộc về nơi này.",hate
+"Không nên tuyển người thuộc [NHÓM], bất kể năng lực của họ.",hate
+"Hãy cấm học sinh thuộc [NHÓM] tham gia hoạt động chung.",hate
+"Từ chối cung cấp dịch vụ cho người thuộc [NHÓM] chỉ vì danh tính của họ.",hate
+"Hãy đuổi tất cả người thuộc [NHÓM] khỏi khu phố này.",hate
+"Mọi người hãy cùng tẩy chay các cửa hàng do [NHÓM] điều hành.",hate
+"Hãy ngăn [NHÓM] sử dụng các dịch vụ công cộng.",hate
+"Hãy phát tán lời kêu gọi để [NHÓM] không được sống trong cộng đồng này.",hate
+"Chính quyền nên tước quyền học tập của tất cả người thuộc [NHÓM].",hate
+"Hãy ngăn [NHÓM] đến nơi làm việc và khu dân cư của chúng ta.",hate
+"Hãy tập hợp để xua [NHÓM] khỏi không gian công cộng.",hate
+"Đừng cho phép [NHÓM] kinh doanh; hãy gây sức ép để họ đóng cửa.",hate
+"Hãy làm hại các cơ sở của [NHÓM] để họ phải rời khỏi khu vực.",hate
+"Hãy tấn công người thuộc [NHÓM] khi gặp họ ngoài đường.",hate
+"Hãy lập danh sách và truy tìm người thuộc [NHÓM] để trục xuất họ.",hate
+"Không nên cho [NHÓM] được pháp luật bảo vệ bình đẳng.",hate
+"Hãy xóa bỏ mọi dấu vết văn hóa của [NHÓM] trong thành phố.",hate
+"Người thuộc [NHÓM] không phải là thành viên thật sự của xã hội này.",hate
+"Bài đăng đang kêu gọi đuổi [NHÓM] khỏi khu phố; tôi báo cáo nội dung đó.",non_hate
+"Tôi trích câu trên để phân tích cách lời kêu gọi kỳ thị được viết.",non_hate
+"Không nên kỳ thị [NHÓM]; mọi người cần được đối xử công bằng.",non_hate
+"Bài đăng này có vẻ là ragebait về phim, không nhắm vào nhóm dân cư nào.",non_hate
+"Tôi không đồng ý với ý kiến này, nhưng không vì thế mà công kích người viết.",non_hate
+"Ai bảo chiếc máy này đáng tiền chắc chưa từng so sánh với mẫu rẻ hơn.",non_hate
+"Trận chung kết này buồn ngủ đến mức xem bảng tỉ số còn thú vị hơn.",non_hate
+"Đừng gọi đây là nghệ thuật; đây chỉ là quảng cáo được quay đẹp.",non_hate
+"Người ta thích bộ phim này vì diễn viên nổi tiếng, không phải vì kịch bản.",non_hate
+"Món đồ uống này chủ yếu bán nhờ cái tên lạ chứ vị thì bình thường.",non_hate
+"Nếu phải giải thích vì sao trò chơi này vui thì chắc nó chẳng vui đến thế.",non_hate
+"Cập nhật mới chỉ làm ứng dụng chậm hơn, nhưng ai cũng giả vờ gọi đó là cải tiến.",non_hate
+"Ai mua phiên bản cao cấp chỉ để khoe chứ đâu dùng hết tính năng.",non_hate
+"Bài đánh giá này nghe như người viết được trả tiền để khen.",non_hate
+"Món ăn đường phố ngon hơn món nhà hàng sang trọng này nhiều.",non_hate
+"Cuốn sách bán chạy này có thể rút gọn còn một bài đăng ngắn.",non_hate
+"Đây là màn trình diễn bị đánh giá cao nhất mùa giải, chẳng có gì đặc biệt.",non_hate
+"Người hâm mộ đang tranh luận như thể kết quả một trận đấu quyết định cả cuộc đời.",non_hate
+"Mẫu điện thoại mới chỉ khác màu vỏ mà mọi người vẫn xếp hàng mua.",non_hate
+"Bộ phim này có nhạc hay hơn nội dung; tắt tiếng đi còn dễ hiểu hơn.",non_hate
+"Nếu phải dùng mã giảm giá mới thấy đáng mua thì sản phẩm đó vốn đã quá đắt.",non_hate
+"Mọi người gọi đây là xu hướng, tôi gọi đó là quảng cáo lặp đi lặp lại.",non_hate
+"Quán này đông vì lên mạng nhiều, không phải vì đồ ăn ngon.",non_hate
+"Trò chơi này khó không phải vì sâu sắc mà vì điều khiển tệ.",non_hate
+"Người khen chiếc xe này chắc chưa từng lái xe nào êm hơn.",non_hate
+"Phần tiếp theo này chỉ tồn tại để bán thêm vé, không cần thiết cho câu chuyện.",non_hate
+"Đây là cuộc tranh luận vô ích nhất hôm nay, và cả hai bên đều đang giúp nó lan rộng.",non_hate
+"Thứ hạng này chứng minh bảng bình chọn trực tuyến không nói lên chất lượng.",non_hate
+"Ai nghĩ quảng cáo này cảm động chắc đã quên mất họ đang bị bán hàng.",non_hate
+"Mọi người nổi giận vì một ý kiến về món ăn; có lẽ món ăn đó không phải vấn đề lớn nhất hôm nay.",non_hate
+"Không thể tin người thuộc [NHÓM DÂN TỘC] dù họ có nói gì.",hate
+"[NHÓM TÔN GIÁO] luôn phá hoại nơi họ đến.",hate
+"Người thuộc [NHÓM QUỐC TỊCH] không bao giờ có thể là hàng xóm tốt.",hate
+"Đừng kết bạn với ai thuộc [NHÓM]; họ đều có cùng bản chất xấu.",hate
+"[NHÓM GIỚI] không đáng được lắng nghe trong các cuộc họp cộng đồng.",hate
+"Mọi vấn đề ở công ty đều do nhân viên thuộc [NHÓM] gây ra.",hate
+"Chỉ nên cho người thuộc [NHÓM] thuê nhà nếu họ chấp nhận mức giá cao hơn.",hate
+"Không phục vụ khách thuộc [NHÓM] tại cửa hàng này.",hate
+"Hãy loại hồ sơ của ứng viên thuộc [NHÓM] trước khi phỏng vấn.",hate
+"Đừng cho trẻ thuộc [NHÓM] học cùng lớp với con em chúng ta.",hate
+"Từ chối cho người thuộc [NHÓM] tham gia câu lạc bộ chỉ vì nguồn gốc của họ.",hate
+"Không nên cho [NHÓM] quyền tiếp cận dịch vụ y tế như những người khác.",hate
+"Hãy chuyển nhân viên thuộc [NHÓM] khỏi vị trí tiếp xúc với khách hàng.",hate
+"Đừng bán nhà trong khu này cho người thuộc [NHÓM].",hate
+"Người thuộc [NHÓM] không nên được nhận vào trường học của chúng ta.",hate
+"Hãy từ chối cấp giấy phép kinh doanh cho [NHÓM] bất kể họ đáp ứng quy định.",hate
+"Cứ nhìn thấy người thuộc [NHÓM] là phải coi họ như kẻ thù.",hate
+"[NHÓM] không có chỗ trong cộng đồng này.",hate
+"Không ai nên đứng về phía người thuộc [NHÓM], dù họ bị đối xử bất công.",hate
+"Người thuộc [NHÓM] chỉ giả vờ muốn hòa nhập.",hate
+"Không nên để [NHÓM] sống gần trường học của trẻ em.",hate
+"[NHÓM] không xứng đáng được tôn trọng như những người khác.",hate
+"Đừng cho phép người thuộc [NHÓM] phát biểu trong các cuộc họp khu phố.",hate
+"Mỗi khi có chuyện xấu xảy ra, hãy nghi ngờ [NHÓM] đầu tiên.",hate
+"Hãy đặt quy định riêng bất lợi cho [NHÓM] để họ tự rời khỏi nơi này.",hate
+"Hãy tổ chức để buộc tất cả người thuộc [NHÓM] rời khỏi khu vực.",hate
+"Cùng nhau ngăn [NHÓM] tham gia sự kiện công cộng.",hate
+"Hãy dán thông báo kêu gọi chủ nhà không cho [NHÓM] thuê chỗ ở.",hate
+"Gây sức ép lên các doanh nghiệp để họ sa thải nhân viên thuộc [NHÓM].",hate
+"Hãy yêu cầu trường học đuổi học sinh thuộc [NHÓM] chỉ vì gia đình của các em.",hate
+"Đừng để [NHÓM] bước vào khu sinh hoạt chung; hãy chặn lối vào của họ.",hate
+"Hãy vận động để [NHÓM] mất quyền tham gia các hoạt động của khu phố.",hate
+"Tẩy chay mọi dịch vụ do người thuộc [NHÓM] cung cấp.",hate
+"Hãy đuổi người thuộc [NHÓM] khỏi phương tiện công cộng.",hate
+"Hãy buộc ban tổ chức hủy lời mời diễn giả thuộc [NHÓM].",hate
+"Cùng nhau làm cho người thuộc [NHÓM] không thể tiếp tục kinh doanh tại đây.",hate
+"Hãy phá các áp phích và biểu tượng văn hóa của [NHÓM] trong khu vực.",hate
+"Hãy kéo đến gây áp lực để [NHÓM] phải rời khỏi buổi họp.",hate
+"Không cho người thuộc [NHÓM] sử dụng công viên; hãy xua họ đi.",hate
+"Hãy lan truyền danh sách để mọi người nhận diện và tránh xa [NHÓM].",hate
+"Hãy tụ tập trước cơ sở của [NHÓM] để buộc họ đóng cửa.",hate
+"Hãy phá hoại tài sản của người thuộc [NHÓM] để họ phải chuyển đi.",hate
+"Hãy đe dọa người thuộc [NHÓM] để họ không dám quay lại.",hate
+"Hãy đánh đuổi [NHÓM] khỏi khu phố nếu họ xuất hiện ở đó.",hate
+"Hãy tấn công người thuộc [NHÓM] để dạy họ rằng họ không được chào đón.",hate
+"Hãy buộc các tổ chức địa phương ngừng hỗ trợ [NHÓM].",hate
+"Hãy ngăn [NHÓM] đăng ký tham gia các lớp học trong khu vực.",hate
+"Hãy yêu cầu chủ cửa hàng đuổi khách thuộc [NHÓM] ra ngoài.",hate
+"Cùng nhau loại [NHÓM] khỏi mọi hoạt động của cộng đồng.",hate
+"Hãy xua đuổi [NHÓM] bằng bạo lực nếu họ không tự rời đi.",hate
+"Tôi đang lưu bằng chứng về lời kêu gọi tấn công [NHÓM] để gửi cho quản trị viên.",non_hate
+"Bài viết dùng định kiến về [NHÓM]; hãy kiểm tra thông tin trước khi chia sẻ.",non_hate
+"Tôi phản đối việc loại [NHÓM] khỏi trường học và nơi làm việc.",non_hate
+"Bài đăng này trích một khẩu hiệu kỳ thị để phê phán nó.",non_hate
+"Nhóm nghiên cứu đang phân tích cách thức lời kích động lan truyền.",non_hate
+"Tôi không ủng hộ nội dung trong ảnh; tôi đăng ảnh để báo cáo vi phạm.",non_hate
+"Câu nói này là ví dụ trong bài học về ngôn từ thù địch.",non_hate
+"Không nên đổ lỗi cho cả [NHÓM] vì hành động của một cá nhân.",non_hate
+"Tôi muốn tìm hiểu vì sao lời kêu gọi tẩy chay một nhóm người có thể gây hại.",non_hate
+"Hãy bảo vệ quyền bình đẳng của [NHÓM] và phản đối hành vi quấy rối họ.",non_hate
+"Tôi không đồng ý với quan điểm này.",non_hate
+"Bài viết phân tích chính sách nhập cư.",non_hate
+"Mọi người nên tôn trọng sự khác biệt.",non_hate
+"Tôi phản đối quyết định của chính phủ.",non_hate
+"Cộng đồng này cần được bảo vệ bình đẳng.",non_hate
+"Hãy tranh luận bằng lập luận, đừng công kích cá nhân.",non_hate
+"Tôi không thích bộ phim này.",non_hate
+"Bài báo đưa tin về một vụ tấn công nhắm vào nhóm thiểu số.",non_hate
+"Đây là câu trích dẫn để phân tích ngôn ngữ thù địch.",non_hate
+"Chính sách đó gây hại cho nhiều người.",non_hate
+"Người thuộc nhóm đó đều thấp kém và không xứng đáng sống ở đây.",hate
+"Hãy đuổi tất cả những người thuộc nhóm ấy khỏi đất nước.",hate
+"Nhóm người đó là sâu bọ, cần phải loại bỏ.",hate
+"Đừng cho những người đó quyền được sống bình yên.",hate
+"Tất cả thành viên nhóm ấy đều đáng bị tấn công.",hate
+"Chúng ta phải tẩy chay và xua đuổi họ chỉ vì nguồn gốc của họ.",hate
+"Những kẻ thuộc nhóm đó không phải con người.",hate
+"Hãy làm cho cộng đồng ấy biến mất.",hate
+"Tôi sẽ không thuê ai chỉ vì họ thuộc nhóm thiểu số đó.",hate
+"Người như họ không nên được phép sống trong khu phố này.",hate

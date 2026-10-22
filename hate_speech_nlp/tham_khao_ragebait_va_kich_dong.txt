@@ -1,0 +1,193 @@
+TỔNG HỢP THAM KHẢO: RAGEBAIT VÀ NGÔN TỪ KÍCH ĐỘNG THÙ ĐỊCH
+Ngày tổng hợp: 22-10-2026
+Mục đích: tham khảo để phân loại nội dung cho bài tập NLP.
+
+LƯU Ý VỀ NGUỒN
+Các câu bên dưới là ví dụ minh họa được viết lại/tổng hợp theo dạng nội dung, KHÔNG phải trích dẫn nguyên văn từ tài khoản mạng xã hội cụ thể. Nguồn cuối tài liệu dùng để tham khảo định nghĩa và tìm hiểu bộ dữ liệu nghiên cứu. Không gán các câu mẫu này cho người thật.
+
+RAGEBAIT KHÁC VỚI HATE SPEECH
+Ragebait là nội dung cố ý khơi tức giận hoặc phẫn nộ, thường để tăng tương tác. Nó có thể chỉ nói về món ăn, phim, thể thao, sản phẩm và không nhắm vào nhóm người. Vì vậy, không nên tự động gán ragebait là hate speech.
+
+GỢI Ý NHÃN
+RAGEBAIT_ONLY -> non_hate trong bộ phân loại hate/non-hate; có thể thêm nhãn ragebait=1.
+HATE_HOSTILITY / HATE_DISCRIMINATION / HATE_INCITEMENT -> hate (cần xem lại ngữ cảnh).
+QUOTE_OR_COUNTERSPEECH -> không tự động gán hate; cần đọc cả ngữ cảnh.
+Các từ [NHÓM] là chỗ giữ chỗ, không chỉ một cộng đồng cụ thể.
+
+A. RAGEBAIT KHÔNG NHẮM VÀO NHÓM DÂN CƯ
+Các câu minh họa có tính khích bác/khơi tranh cãi về sở thích, sản phẩm hoặc giải trí; không mặc nhiên là thù địch với nhóm người.
+
+RB01 | RAGEBAIT_ONLY | non_hate | Đội bóng X chỉ thắng nhờ trọng tài; fan của họ chắc chẳng hiểu bóng đá.
+RB02 | RAGEBAIT_ONLY | non_hate | Món ăn này bị thổi phồng quá mức; ai thích chắc chưa từng ăn món ngon.
+RB03 | RAGEBAIT_ONLY | non_hate | Phim đang hot nhất năm nay thật tệ; người khen nó chỉ chạy theo xu hướng.
+RB04 | RAGEBAIT_ONLY | non_hate | Game này chỉ hay với người chưa chơi game nào tốt hơn.
+RB05 | RAGEBAIT_ONLY | non_hate | Điện thoại này là lựa chọn tệ nhất; mua nó chỉ phí tiền.
+RB06 | RAGEBAIT_ONLY | non_hate | Bài hát này nghe như tiếng ồn, không hiểu sao lại lên top.
+RB07 | RAGEBAIT_ONLY | non_hate | Quán cà phê này chỉ đẹp trên ảnh, đồ uống chẳng có gì đặc sắc.
+RB08 | RAGEBAIT_ONLY | non_hate | Thương hiệu này bán đồ đắt tiền nhưng chất lượng chẳng hơn hàng phổ thông.
+RB09 | RAGEBAIT_ONLY | non_hate | Nếu bạn thích kết phim này thì bạn đã bỏ lỡ toàn bộ ý nghĩa câu chuyện.
+RB10 | RAGEBAIT_ONLY | non_hate | Không có môn thể thao nào nhàm chán hơn môn này.
+RB11 | RAGEBAIT_ONLY | non_hate | Sản phẩm này chứng minh rằng giá cao không đồng nghĩa chất lượng cao.
+RB12 | RAGEBAIT_ONLY | non_hate | Hai đội đều chơi tệ, nhưng fan mới là người không chấp nhận sự thật.
+RB13 | RAGEBAIT_ONLY | non_hate | Món đặc sản này không xứng đáng với danh tiếng của nó.
+RB14 | RAGEBAIT_ONLY | non_hate | Ai thích nhân vật này chắc chỉ xem phim bằng một nửa sự chú ý.
+RB15 | RAGEBAIT_ONLY | non_hate | Nếu bài viết này làm bạn bực mình thì có lẽ bạn đang giúp nó lan truyền.
+
+B. CÔNG KÍCH, KỲ THỊ HOẶC KÊU GỌI LOẠI TRỪ NHÓM NGƯỜI
+Các câu mẫu dùng [NHÓM] làm chỗ giữ chỗ. Đây là ví dụ ngôn ngữ tổng hợp, không nhắm đến cộng đồng cụ thể.
+
+HS01 | HATE_HOSTILITY | hate | Tất cả người thuộc [NHÓM] đều nguy hiểm; đừng tin bất kỳ ai trong số họ.
+HS02 | HATE_HOSTILITY | hate | [NHÓM] là nguyên nhân của mọi vấn đề trong khu vực này.
+HS03 | HATE_DISCRIMINATION | hate | Đừng cho người thuộc [NHÓM] thuê nhà chỉ vì họ không thuộc về nơi này.
+HS04 | HATE_DISCRIMINATION | hate | Không nên tuyển người thuộc [NHÓM], bất kể năng lực của họ.
+HS05 | HATE_DISCRIMINATION | hate | Hãy cấm học sinh thuộc [NHÓM] tham gia hoạt động chung.
+HS06 | HATE_DISCRIMINATION | hate | Từ chối cung cấp dịch vụ cho người thuộc [NHÓM] chỉ vì danh tính của họ.
+HS07 | HATE_INCITEMENT | hate | Hãy đuổi tất cả người thuộc [NHÓM] khỏi khu phố này.
+HS08 | HATE_INCITEMENT | hate | Mọi người hãy cùng tẩy chay các cửa hàng do [NHÓM] điều hành.
+HS09 | HATE_INCITEMENT | hate | Hãy ngăn [NHÓM] sử dụng các dịch vụ công cộng.
+HS10 | HATE_INCITEMENT | hate | Hãy phát tán lời kêu gọi để [NHÓM] không được sống trong cộng đồng này.
+HS11 | HATE_INCITEMENT | hate | Chính quyền nên tước quyền học tập của tất cả người thuộc [NHÓM].
+HS12 | HATE_INCITEMENT | hate | Hãy ngăn [NHÓM] đến nơi làm việc và khu dân cư của chúng ta.
+HS13 | HATE_INCITEMENT | hate | Hãy tập hợp để xua [NHÓM] khỏi không gian công cộng.
+HS14 | HATE_INCITEMENT | hate | Đừng cho phép [NHÓM] kinh doanh; hãy gây sức ép để họ đóng cửa.
+HS15 | HATE_INCITEMENT | hate | Hãy làm hại các cơ sở của [NHÓM] để họ phải rời khỏi khu vực.
+HS16 | HATE_INCITEMENT | hate | Hãy tấn công người thuộc [NHÓM] khi gặp họ ngoài đường.
+HS17 | HATE_INCITEMENT | hate | Hãy lập danh sách và truy tìm người thuộc [NHÓM] để trục xuất họ.
+HS18 | HATE_INCITEMENT | hate | Không nên cho [NHÓM] được pháp luật bảo vệ bình đẳng.
+HS19 | HATE_INCITEMENT | hate | Hãy xóa bỏ mọi dấu vết văn hóa của [NHÓM] trong thành phố.
+HS20 | HATE_HOSTILITY | hate | Người thuộc [NHÓM] không phải là thành viên thật sự của xã hội này.
+
+C. NGỮ CẢNH KHÔNG NÊN GÁN NHÃN CHỈ DỰA VÀO TỪ KHÓA
+CX01 | QUOTE_OR_COUNTERSPEECH | cần đọc ngữ cảnh | Bài đăng đang kêu gọi đuổi [NHÓM] khỏi khu phố; tôi báo cáo nội dung đó.
+CX02 | QUOTE_OR_COUNTERSPEECH | cần đọc ngữ cảnh | Tôi trích câu trên để phân tích cách lời kêu gọi kỳ thị được viết.
+CX03 | QUOTE_OR_COUNTERSPEECH | cần đọc ngữ cảnh | Không nên kỳ thị [NHÓM]; mọi người cần được đối xử công bằng.
+CX04 | QUOTE_OR_COUNTERSPEECH | cần đọc ngữ cảnh | Bài đăng này có vẻ là ragebait về phim, không nhắm vào nhóm dân cư nào.
+CX05 | QUOTE_OR_COUNTERSPEECH | cần đọc ngữ cảnh | Tôi không đồng ý với ý kiến này, nhưng không vì thế mà công kích người viết.
+
+GỢI Ý DÙNG CHO DỰ ÁN NLP
+1. Tách mục đích ragebait khỏi nội dung hate speech; có thể dùng hai nhãn độc lập.
+2. Với bộ nhãn nhị phân hiện tại: RB -> non_hate; HS -> hate; CX -> cần người gán nhãn theo ngữ cảnh.
+3. Không dùng các câu có [NHÓM] như dữ liệu đại diện cuối cùng. Thay bằng dữ liệu có quyền sử dụng và có người kiểm tra nhãn.
+4. Cần đọc ngữ cảnh: phủ định, trích dẫn, báo cáo, mỉa mai và thuật lại lời người khác có thể đổi nhãn.
+5. Các ví dụ này chưa được chuyên gia gán nhãn và không dùng để báo cáo độ chính xác mô hình.
+
+NGUỒN THAM KHẢO CÔNG KHAI
+[1] Oxford University Press, Oxford Word of the Year 2025 - Rage bait:
+https://corp.oup.com/word-of-the-year/
+Định nghĩa ragebait là nội dung online có chủ ý khơi giận dữ/phẫn nộ, thường để tăng truy cập hoặc tương tác.
+
+[2] Cambridge Dictionary, Rage-bait:
+https://dictionary.cambridge.org/dictionary/english/rage-bait
+Định nghĩa ngắn: nội dung trên mạng được tạo để làm người xem tức giận và khuyến khích họ phản hồi.
+
+[3] United Nations, What is hate speech? và FAQs:
+https://www.un.org/en/node/165070
+https://www.un.org/en/hate-speech/understanding-hate-speech/faqs
+Tham khảo phân biệt nội dung công kích/kỳ thị dựa trên danh tính với việc cố ý kích động phân biệt đối xử, thù địch hoặc bạo lực.
+
+[4] Hoang et al. (2023), ViHOS: Hate Speech Spans Detection for Vietnamese, EACL/ACL Anthology:
+https://aclanthology.org/2023.eacl-main.47/
+Nghiên cứu công bố corpus tiếng Việt do con người gán nhãn, gồm 26 nghìn spans trên 11 nghìn bình luận, cùng hướng dẫn gán nhãn.
+
+[5] Luu et al. (2021), A Large-scale Dataset for Hate Speech Detection on Vietnamese Social Media Texts (ViHSD):
+https://arxiv.org/abs/2103.11528
+Bài báo mô tả 33.400 bình luận với ba nhãn CLEAN, OFFENSIVE, HATE; cũng nêu khó khăn về tiếng lóng, viết tắt và nghĩa bóng.
+
+Trước khi tải hoặc sử dụng ViHOS, ViHSD hay dữ liệu mạng xã hội khác, hãy đọc điều khoản sử dụng, giấy phép và quy tắc bảo vệ dữ liệu của nguồn.
+
+
+PHẦN TIẾP THEO - VÍ DỤ BỔ SUNG (ĐỀU LÀ CÂU MINH HỌA ĐƯỢC VIẾT MỚI)
+Các ví dụ dưới đây không phải trích dẫn từ tài khoản cụ thể. Nhãn dùng để tham khảo; cần người gán nhãn kiểm tra lại trước khi huấn luyện.
+
+D. RAGEBAIT VỀ SỞ THÍCH, SẢN PHẨM VÀ TRANH LUẬN TRÊN MẠNG
+RB16 | RAGEBAIT_ONLY | non_hate | Ai bảo chiếc máy này đáng tiền chắc chưa từng so sánh với mẫu rẻ hơn.
+RB17 | RAGEBAIT_ONLY | non_hate | Trận chung kết này buồn ngủ đến mức xem bảng tỉ số còn thú vị hơn.
+RB18 | RAGEBAIT_ONLY | non_hate | Đừng gọi đây là nghệ thuật; đây chỉ là quảng cáo được quay đẹp.
+RB19 | RAGEBAIT_ONLY | non_hate | Người ta thích bộ phim này vì diễn viên nổi tiếng, không phải vì kịch bản.
+RB20 | RAGEBAIT_ONLY | non_hate | Món đồ uống này chủ yếu bán nhờ cái tên lạ chứ vị thì bình thường.
+RB21 | RAGEBAIT_ONLY | non_hate | Nếu phải giải thích vì sao trò chơi này vui thì chắc nó chẳng vui đến thế.
+RB22 | RAGEBAIT_ONLY | non_hate | Cập nhật mới chỉ làm ứng dụng chậm hơn, nhưng ai cũng giả vờ gọi đó là cải tiến.
+RB23 | RAGEBAIT_ONLY | non_hate | Ai mua phiên bản cao cấp chỉ để khoe chứ đâu dùng hết tính năng.
+RB24 | RAGEBAIT_ONLY | non_hate | Bài đánh giá này nghe như người viết được trả tiền để khen.
+RB25 | RAGEBAIT_ONLY | non_hate | Món ăn đường phố ngon hơn món nhà hàng sang trọng này nhiều.
+RB26 | RAGEBAIT_ONLY | non_hate | Cuốn sách bán chạy này có thể rút gọn còn một bài đăng ngắn.
+RB27 | RAGEBAIT_ONLY | non_hate | Đây là màn trình diễn bị đánh giá cao nhất mùa giải, chẳng có gì đặc biệt.
+RB28 | RAGEBAIT_ONLY | non_hate | Người hâm mộ đang tranh luận như thể kết quả một trận đấu quyết định cả cuộc đời.
+RB29 | RAGEBAIT_ONLY | non_hate | Mẫu điện thoại mới chỉ khác màu vỏ mà mọi người vẫn xếp hàng mua.
+RB30 | RAGEBAIT_ONLY | non_hate | Bộ phim này có nhạc hay hơn nội dung; tắt tiếng đi còn dễ hiểu hơn.
+RB31 | RAGEBAIT_ONLY | non_hate | Nếu phải dùng mã giảm giá mới thấy đáng mua thì sản phẩm đó vốn đã quá đắt.
+RB32 | RAGEBAIT_ONLY | non_hate | Mọi người gọi đây là xu hướng, tôi gọi đó là quảng cáo lặp đi lặp lại.
+RB33 | RAGEBAIT_ONLY | non_hate | Quán này đông vì lên mạng nhiều, không phải vì đồ ăn ngon.
+RB34 | RAGEBAIT_ONLY | non_hate | Trò chơi này khó không phải vì sâu sắc mà vì điều khiển tệ.
+RB35 | RAGEBAIT_ONLY | non_hate | Người khen chiếc xe này chắc chưa từng lái xe nào êm hơn.
+RB36 | RAGEBAIT_ONLY | non_hate | Phần tiếp theo này chỉ tồn tại để bán thêm vé, không cần thiết cho câu chuyện.
+RB37 | RAGEBAIT_ONLY | non_hate | Đây là cuộc tranh luận vô ích nhất hôm nay, và cả hai bên đều đang giúp nó lan rộng.
+RB38 | RAGEBAIT_ONLY | non_hate | Thứ hạng này chứng minh bảng bình chọn trực tuyến không nói lên chất lượng.
+RB39 | RAGEBAIT_ONLY | non_hate | Ai nghĩ quảng cáo này cảm động chắc đã quên mất họ đang bị bán hàng.
+RB40 | RAGEBAIT_ONLY | non_hate | Mọi người nổi giận vì một ý kiến về món ăn; có lẽ món ăn đó không phải vấn đề lớn nhất hôm nay.
+
+E. ĐỊNH KIẾN VÀ KÊU GỌI PHÂN BIỆT ĐỐI XỬ
+HS21 | HATE_HOSTILITY | hate | Không thể tin người thuộc [NHÓM DÂN TỘC] dù họ có nói gì.
+HS22 | HATE_HOSTILITY | hate | [NHÓM TÔN GIÁO] luôn phá hoại nơi họ đến.
+HS23 | HATE_HOSTILITY | hate | Người thuộc [NHÓM QUỐC TỊCH] không bao giờ có thể là hàng xóm tốt.
+HS24 | HATE_HOSTILITY | hate | Đừng kết bạn với ai thuộc [NHÓM]; họ đều có cùng bản chất xấu.
+HS25 | HATE_HOSTILITY | hate | [NHÓM GIỚI] không đáng được lắng nghe trong các cuộc họp cộng đồng.
+HS26 | HATE_HOSTILITY | hate | Mọi vấn đề ở công ty đều do nhân viên thuộc [NHÓM] gây ra.
+HS27 | HATE_DISCRIMINATION | hate | Chỉ nên cho người thuộc [NHÓM] thuê nhà nếu họ chấp nhận mức giá cao hơn.
+HS28 | HATE_DISCRIMINATION | hate | Không phục vụ khách thuộc [NHÓM] tại cửa hàng này.
+HS29 | HATE_DISCRIMINATION | hate | Hãy loại hồ sơ của ứng viên thuộc [NHÓM] trước khi phỏng vấn.
+HS30 | HATE_DISCRIMINATION | hate | Đừng cho trẻ thuộc [NHÓM] học cùng lớp với con em chúng ta.
+HS31 | HATE_DISCRIMINATION | hate | Từ chối cho người thuộc [NHÓM] tham gia câu lạc bộ chỉ vì nguồn gốc của họ.
+HS32 | HATE_DISCRIMINATION | hate | Không nên cho [NHÓM] quyền tiếp cận dịch vụ y tế như những người khác.
+HS33 | HATE_DISCRIMINATION | hate | Hãy chuyển nhân viên thuộc [NHÓM] khỏi vị trí tiếp xúc với khách hàng.
+HS34 | HATE_DISCRIMINATION | hate | Đừng bán nhà trong khu này cho người thuộc [NHÓM].
+HS35 | HATE_DISCRIMINATION | hate | Người thuộc [NHÓM] không nên được nhận vào trường học của chúng ta.
+HS36 | HATE_DISCRIMINATION | hate | Hãy từ chối cấp giấy phép kinh doanh cho [NHÓM] bất kể họ đáp ứng quy định.
+HS37 | HATE_HOSTILITY | hate | Cứ nhìn thấy người thuộc [NHÓM] là phải coi họ như kẻ thù.
+HS38 | HATE_HOSTILITY | hate | [NHÓM] không có chỗ trong cộng đồng này.
+HS39 | HATE_HOSTILITY | hate | Không ai nên đứng về phía người thuộc [NHÓM], dù họ bị đối xử bất công.
+HS40 | HATE_HOSTILITY | hate | Người thuộc [NHÓM] chỉ giả vờ muốn hòa nhập.
+HS41 | HATE_HOSTILITY | hate | Không nên để [NHÓM] sống gần trường học của trẻ em.
+HS42 | HATE_HOSTILITY | hate | [NHÓM] không xứng đáng được tôn trọng như những người khác.
+HS43 | HATE_HOSTILITY | hate | Đừng cho phép người thuộc [NHÓM] phát biểu trong các cuộc họp khu phố.
+HS44 | HATE_HOSTILITY | hate | Mỗi khi có chuyện xấu xảy ra, hãy nghi ngờ [NHÓM] đầu tiên.
+HS45 | HATE_DISCRIMINATION | hate | Hãy đặt quy định riêng bất lợi cho [NHÓM] để họ tự rời khỏi nơi này.
+
+F. LỜI KÊU GỌI LOẠI TRỪ, GÂY SỨC ÉP HOẶC BẠO LỰC
+HI21 | HATE_INCITEMENT | hate | Hãy tổ chức để buộc tất cả người thuộc [NHÓM] rời khỏi khu vực.
+HI22 | HATE_INCITEMENT | hate | Cùng nhau ngăn [NHÓM] tham gia sự kiện công cộng.
+HI23 | HATE_INCITEMENT | hate | Hãy dán thông báo kêu gọi chủ nhà không cho [NHÓM] thuê chỗ ở.
+HI24 | HATE_INCITEMENT | hate | Gây sức ép lên các doanh nghiệp để họ sa thải nhân viên thuộc [NHÓM].
+HI25 | HATE_INCITEMENT | hate | Hãy yêu cầu trường học đuổi học sinh thuộc [NHÓM] chỉ vì gia đình của các em.
+HI26 | HATE_INCITEMENT | hate | Đừng để [NHÓM] bước vào khu sinh hoạt chung; hãy chặn lối vào của họ.
+HI27 | HATE_INCITEMENT | hate | Hãy vận động để [NHÓM] mất quyền tham gia các hoạt động của khu phố.
+HI28 | HATE_INCITEMENT | hate | Tẩy chay mọi dịch vụ do người thuộc [NHÓM] cung cấp.
+HI29 | HATE_INCITEMENT | hate | Hãy đuổi người thuộc [NHÓM] khỏi phương tiện công cộng.
+HI30 | HATE_INCITEMENT | hate | Hãy buộc ban tổ chức hủy lời mời diễn giả thuộc [NHÓM].
+HI31 | HATE_INCITEMENT | hate | Cùng nhau làm cho người thuộc [NHÓM] không thể tiếp tục kinh doanh tại đây.
+HI32 | HATE_INCITEMENT | hate | Hãy phá các áp phích và biểu tượng văn hóa của [NHÓM] trong khu vực.
+HI33 | HATE_INCITEMENT | hate | Hãy kéo đến gây áp lực để [NHÓM] phải rời khỏi buổi họp.
+HI34 | HATE_INCITEMENT | hate | Không cho người thuộc [NHÓM] sử dụng công viên; hãy xua họ đi.
+HI35 | HATE_INCITEMENT | hate | Hãy lan truyền danh sách để mọi người nhận diện và tránh xa [NHÓM].
+HI36 | HATE_INCITEMENT | hate | Hãy tụ tập trước cơ sở của [NHÓM] để buộc họ đóng cửa.
+HI37 | HATE_INCITEMENT | hate | Hãy phá hoại tài sản của người thuộc [NHÓM] để họ phải chuyển đi.
+HI38 | HATE_INCITEMENT | hate | Hãy đe dọa người thuộc [NHÓM] để họ không dám quay lại.
+HI39 | HATE_INCITEMENT | hate | Hãy đánh đuổi [NHÓM] khỏi khu phố nếu họ xuất hiện ở đó.
+HI40 | HATE_INCITEMENT | hate | Hãy tấn công người thuộc [NHÓM] để dạy họ rằng họ không được chào đón.
+HI41 | HATE_INCITEMENT | hate | Hãy buộc các tổ chức địa phương ngừng hỗ trợ [NHÓM].
+HI42 | HATE_INCITEMENT | hate | Hãy ngăn [NHÓM] đăng ký tham gia các lớp học trong khu vực.
+HI43 | HATE_INCITEMENT | hate | Hãy yêu cầu chủ cửa hàng đuổi khách thuộc [NHÓM] ra ngoài.
+HI44 | HATE_INCITEMENT | hate | Cùng nhau loại [NHÓM] khỏi mọi hoạt động của cộng đồng.
+HI45 | HATE_INCITEMENT | hate | Hãy xua đuổi [NHÓM] bằng bạo lực nếu họ không tự rời đi.
+
+G. CÂU CÓ TỪ NGỮ GÂY SỐC NHƯNG CẦN ĐỌC NGỮ CẢNH
+CX06 | QUOTE_OR_COUNTERSPEECH | cần đọc ngữ cảnh | Tôi đang lưu bằng chứng về lời kêu gọi tấn công [NHÓM] để gửi cho quản trị viên.
+CX07 | QUOTE_OR_COUNTERSPEECH | cần đọc ngữ cảnh | Bài viết dùng định kiến về [NHÓM]; hãy kiểm tra thông tin trước khi chia sẻ.
+CX08 | QUOTE_OR_COUNTERSPEECH | cần đọc ngữ cảnh | Tôi phản đối việc loại [NHÓM] khỏi trường học và nơi làm việc.
+CX09 | QUOTE_OR_COUNTERSPEECH | cần đọc ngữ cảnh | Bài đăng này trích một khẩu hiệu kỳ thị để phê phán nó.
+CX10 | QUOTE_OR_COUNTERSPEECH | cần đọc ngữ cảnh | Nhóm nghiên cứu đang phân tích cách thức lời kích động lan truyền.
+CX11 | QUOTE_OR_COUNTERSPEECH | cần đọc ngữ cảnh | Tôi không ủng hộ nội dung trong ảnh; tôi đăng ảnh để báo cáo vi phạm.
+CX12 | QUOTE_OR_COUNTERSPEECH | cần đọc ngữ cảnh | Câu nói này là ví dụ trong bài học về ngôn từ thù địch.
+CX13 | QUOTE_OR_COUNTERSPEECH | cần đọc ngữ cảnh | Không nên đổ lỗi cho cả [NHÓM] vì hành động của một cá nhân.
+CX14 | QUOTE_OR_COUNTERSPEECH | cần đọc ngữ cảnh | Tôi muốn tìm hiểu vì sao lời kêu gọi tẩy chay một nhóm người có thể gây hại.
+CX15 | QUOTE_OR_COUNTERSPEECH | cần đọc ngữ cảnh | Hãy bảo vệ quyền bình đẳng của [NHÓM] và phản đối hành vi quấy rối họ.

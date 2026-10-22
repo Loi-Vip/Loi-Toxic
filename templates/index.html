@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#08090c">
+  <title>Trợ lý rà soát ngôn từ</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <main class="chat-shell">
+    <header class="chat-header">
+      <div class="brand-mark" aria-hidden="true">S</div>
+      <div class="brand-copy">
+        <h1>Trợ lý rà soát ngôn từ</h1>
+        <p><span class="status-dot"></span>{% if gemini_enabled %}Gemini sẵn sàng · nhãn được lưu cục bộ{% elif has_model %}Bộ phân loại cục bộ sẵn sàng · Gemini chưa cấu hình{% else %}Cần huấn luyện mô hình hoặc cấu hình Gemini{% endif %}</p>
+      </div>
+      <div class="header-actions">
+        <form action="{{ url_for('train_model') }}" method="post">
+          <button class="header-button train-button" type="submit">Huấn luyện mô hình</button>
+        </form>
+        <form action="{{ url_for('clear') }}" method="post">
+          <button class="header-button clear-button" type="submit" title="Xóa hội thoại">Xóa chat</button>
+        </form>
+      </div>
+    </header>
+
+    <section class="chat-messages" id="chat-messages" aria-live="polite">
+      {% if not messages %}
+      <div class="welcome-card">
+        <div class="welcome-icon">✳</div>
+        <h2>Chào bạn</h2>
+        <p>Gửi một câu hoặc ảnh có chữ để mình giúp rà soát dấu hiệu ngôn từ thù địch.</p>
+        <div class="welcome-chips"><span>Phân tích văn bản</span><span>Quét chữ trong ảnh</span><span>Gemini hỗ trợ gán nhãn</span></div>
+      </div>
+      {% endif %}
+
+      {% for message in messages %}
+      <article class="message-row {{ 'from-user' if message.role == 'user' else 'from-bot' }}">
+        {% if message.role != 'user' %}<div class="avatar bot-avatar">S</div>{% endif %}
+        <div class="message-content">
+          {% if message.image_data %}<img class="uploaded-image" src="{{ message.image_data }}" alt="Ảnh {{ message.image_name or 'đã gửi' }}">{% endif %}
+          {% if message.image_name %}<div class="image-label">Ảnh · {{ message.image_name }}</div>{% endif %}
+          {% if message.text %}<div class="bubble">{{ message.text }}</div>{% endif %}
+        </div>
+        {% if message.role == 'user' %}<div class="avatar user-avatar">Bạn</div>{% endif %}
+      </article>
+      {% endfor %}
+    </section>
+
+    <div class="notice-area">
+      {% for category, message in get_flashed_messages(with_categories=true) %}
+      <div class="notice {{ category }}">{{ message }}</div>
+      {% endfor %}
+      <p class="safety-note">{% if gemini_enabled %}Nội dung văn bản/OCR sẽ được gửi tới Gemini; nhãn gợi ý được lưu trong data/gemini_memory.csv. Hãy rà soát trước khi huấn luyện.{% else %}Kết quả là gợi ý của mô hình cục bộ, không thay cho việc xem xét ngữ cảnh.{% endif %}</p>
+    </div>
+
+    <footer class="composer-area">
+      <form class="composer" id="chat-form" action="{{ url_for('chat') }}" method="post" enctype="multipart/form-data">
+        <input class="file-input" id="image-input" type="file" name="image" accept="image/png,image/jpeg,image/webp">
+        <button class="attach-button" id="attach-button" type="button" aria-label="Chọn ảnh" title="Chọn ảnh">＋</button>
+        <textarea id="message-input" name="message" rows="1" maxlength="5000" placeholder="Nhập tin nhắn hoặc đính kèm ảnh..." aria-label="Tin nhắn"></textarea>
+        <button class="send-button" id="send-button" type="submit" aria-label="Gửi tin nhắn"><span>Gửi</span><b>↑</b></button>
+      </form>
+      <div class="composer-meta"><span id="file-name">PNG, JPG hoặc WebP · tối đa 10 MB</span><span>Enter để gửi · Shift+Enter xuống dòng</span></div>
+    </footer>
+  </main>
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
